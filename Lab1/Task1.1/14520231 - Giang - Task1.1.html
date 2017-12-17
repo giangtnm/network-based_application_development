@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>14520231 - Thái Nguyễn Minh Giang - Task 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="14520231 - Giang - Task1.1.css">
+</head>
+<body> <!--<body background="a.png">-->
+	<div class = "header">
+		<ol type = "a">
+			<h4><i><li>So sánh file HTML có định dạng .html và .htm. Nếu không có các thẻ &lt;html&gt;, &lt;head&gt; và &lt;body&gt; thì có ảnh hưởng gì trong file HTML không? </li></i></h4>
+			<p>Định dạng .html và .htm lập trình giống nhau, khác nhau là .html được ưu tiên chạy trước khi trong folder có cả 2 loại file .html và .htm<br/>
+			Có thể không cần thẻ &lt;html&gt; và thẻ &lt;body&gt; tuy nhiên bỏ qua thẻ &lt;body&gt; có thể gặp phải lỗi ở các trình duyệt cũ.<br/>
+			Theo chuẩn HTML5, bạn có thể bỏ qua thẻ &lt;head&gt;. Theo mặc định, trình duyệt sẽ tự động thêm thẻ &lt;head&gt; trước thẻ &lt;body&gt;.</p>
+			<h4><i><li>Có những cách nào để hiển thị các thẻ HTML để hiển thị ra bên ngoài mà không bị HTML xử lý</li></i></h4>
+			<p>&lt;/br&gt; &lt;div&gt;&lt;h1&gt;Hello HTML&lt;/h1&gt;&lt;/div&gt;</p>
+			<h4><i><li>Làm thế nào để tạo vùng chọn để định dạng trong CSS cho một tag, một class, một ID?</li></i></h4>
+			<p>Dấu # được sử dụng để chọn một thẻ HTML có định danh cụ thể (ID). Do đó, bản chất của việc sử dụng ID không thể tái sử dụng.<br/>
+			Dấu “.” đại diện cho tên lớp. Nhiều thẻ HTML có thể có cùng tên lớp. Do đó, sự khác nhau giữa ID và Class là: ID chỉ cho phép chọn 1 phần tử, còn Class cho phép bạn chọn nhiều thẻ HTML cùng lúc.</p>
+			<p>#ID <br/>
+			#ID1 { <br/>
+				Property1: Value 1;<br/>
+				Property2: Value 2;<br/>
+			}<br/>
+			<p>.Class <br/>
+			.Class1 { <br/>
+				Property1: Value1; <br/>
+				Property2: Value2; <br/>
+			}<br/>
+			<h4><i><li>Tìm và cho ví dụ về các thẻ có các chức năng sau:</li></i></h4>
+				<ul type="square">
+					<i><li>Gạch chân, kẻ đường ngang, chỉ số trên/dưới.</li></i>
+					<p>&lt;u&gt;underline&lt;/u&gt;<u>underline</u><br/>
+					&lt;del&gt;Deleted text&lt;/del&gt;<del>Deleted text</del><br/>
+					<sup>&lt;sup&gt;superscript&lt;sup&gt;</sup><sub>&lt;sub&gt;subscript&lt;sub&gt;</sub></p>
+					<hr/>
+					&lt;hr/&gt;
+					<i><li>Tạo bảng (có ghép dòng, ghép cột). </li></i>
+					<p></p>
+					<table border="1">
+						<tr>
+							<th>1</th>
+							<th>2</th>
+						</tr>
+						<tr>
+							<td>Row 2 - Cell 1</td>
+							<td>Row 2 - Cell 2</td>
+						</tr>
+						<tr>
+							<td colspan="2">Row 3 - Cells 1 and 2</td>
+						</tr>
+						<tr>
+							<td rowspan="2">Rows 4 and 5 - Cell 1</td>
+							<td>Row 4 - Cell 2</td>
+						</tr>
+						<tr>
+							<td>Row 5 - Cell 2</td>
+						</tr>
+					</table>
+					<i><li>4 hiệu ứng chữ chạy từ 4 hướng (trái, phải, trên, dưới).</li></i>
+					<marquee direction="left" onmouseover="this.stop();" onmouseout="this.start();">Chữ chạy từ phải sang trái</marquee>
+					<p>&lt;marquee direction="left" onmouseover="this.stop();" onmouseout="this.start();"&gt;Chữ chạy từ phải sang trái&lt;/marquee&gt;</p>
+					<marquee direction="right" onmouseover="this.stop();" onmouseout="this.start();">Chữ chạy từ trái sang phải</marquee>
+					<p>&lt;marquee direction="right" onmouseover="this.stop();" onmouseout="this.start();"&gt;Chữ chạy từ trái sang phải&lt;/marquee&gt;</p>
+					<marquee direction="up" onmouseover="this.stop();" onmouseout="this.start();">Chữ chạy từ dưới lên trên</marquee>
+					<p>&lt;marquee direction="up" onmouseover="this.stop();" onmouseout="this.start();"&gt;Chữ chạy từ dưới lên trên&lt;/marquee&gt;</p>
+					<marquee direction="down" onmouseover="this.stop();" onmouseout="this.start();">Chữ chạy từ trên xuống dưới</marquee>
+					<p>&lt;marquee direction="down" onmouseover="this.stop();" onmouseout="this.start();"&gt;Chữ chạy từ trên xuống dưới&lt;/marquee&gt;</p>
+				</ul>
+	</div>
+
+</body>
+</html>

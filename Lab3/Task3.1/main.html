@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>14520231 - Thái Nguyễn Minh Giang</title>
+	<meta charset="utf-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="headingOne">
+				<h4 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				Câu 1
+				</a>
+				</h4>
+			</div>
+
+			<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+				<div class="panel-body">
+				<h4>Nhúng vị trí nào có thể đặt Javascript trong file HTML và đặt theo cú pháp nào? Nên đặt Javascript tại vị trí nào để có hiệu suất tốt nhất? Cho ví dụ minh họa.</h4>
+				<p>Javascript có thể đặt ở phần head và phần body. Javascript được đặt theo cú pháp &lt;script type="text/javascript"&gt;&lt;/script&gt;. Nên đặt Javascript tại vị trí cuối phần body để đạt hiệu suất tốt nhất vì nếu đặt ở phần đầu body hay ở phần head thì nếu Javascript bị lỗi file .html sẽ bị chậm</p>
+
+				<h5>&#45; Trong <strong>&lt;head&gt;</strong>&#58;</h5>
+					<div class="code">
+						.....<br>
+						&lt;<span style="color:#a52a2a">head</span>&gt;<br>
+							&nbsp;&nbsp;&lt;<span style="color:#a52a2a">script</span>&gt;<br>
+								&nbsp;&nbsp;<span style="color:blue">function</span> myFunction&#40;&#41; &#123;<br>
+    							&nbsp;&nbsp;&nbsp;&nbsp;document&#46;getElementById&#40;<span style="color:#a52a2a">&quot;demo&quot;</span>&#41;&#46;innerHTML &#61; <span style="color:#a52a2a">&quot;Paragraph changed&#46;&quot;</span>&#59; <br>
+    							&nbsp;&nbsp;&#125;<br>
+							&nbsp;&nbsp;&lt;<span style="color:#a52a2a">&#47;script</span>&gt;<br>
+							&lt;<span style="color:#a52a2a">&#47;head</span>&gt;<br>
+						&lt;<span style="color:#a52a2a">body</span>&gt;<br>
+						.....
+					</div><br>
+
+				<h5>&#45; Trong <strong>&lt;body&gt;</strong>&#58;</h4>
+					<div class="code">
+						.....<br>
+						&lt;<span style="color:#a52a2a">body</span>&gt;<br>
+							&nbsp;&nbsp;&lt;<span style="color:#a52a2a">script</span>&gt;<br>
+								&nbsp;&nbsp;<span style="color:blue">function</span> myFunction&#40;&#41; &#123;<br>
+    							&nbsp;&nbsp;&nbsp;&nbsp;document&#46;getElementById&#40;<span style="color:#a52a2a">&quot;demo&quot;</span>&#41;&#46;innerHTML &#61; <span style="color:#a52a2a">&quot;Paragraph changed&#46;&quot;</span>&#59;<br>
+    							&nbsp;&nbsp;&#125;<br>
+							&nbsp;&nbsp;&lt;<span style="color:#a52a2a">&#47;script</span>><br>
+							&lt;<span style="color:#a52a2a">&#47;body></span><br>
+						&lt;<span style="color:#a52a2a">&#47;html</span>><br>
+						.....
+					</div><br>
+
+				<h5>&#45; JavaScript được đặt từ file bên ngoài </h5>
+					<div class="code">
+						&lt;<span style="color:#a52a2a">script</span> <span style="color:red">src</span>&#61;<span style="color:blue">&quot;myScript1&#46;js&quot;</span>&gt;&lt;&#47;<span style="color:#a52a2a">script</span>&gt;
+					</div><br>
+
+				<h5>&#45; JavaScript được đặt từ nguồn bên ngoài </h5>
+					<div class="code">
+						&lt;<span style="color:#a52a2a">script</span> <span style="color:red">src</span>&#61;<span style="color:blue">"https&#58;&#47;&#47;www&#46;w3schools&#46;com&#47;js&#47;myScript1&#46;js"</span>&gt;&lt;&#47;<span style="color:#a52a2a">script</span>&gt;
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="headingTwo">
+				<h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					Câu 2
+					</a>
+				</h4>
+			</div>
+		
+			<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+				<div class="panel-body">
+				<h4>Trong Javascript có những kiểu dữ liệu nào? Làm thế nào để tạo một biến để lưu trữ giá trị tương ứng với những kiểu dữ liệu đó?</h4>
+				<p>Trong Javascript không phân biệt kiểu dữ liệu của biến. Khi khai báo biến chỉ cần khai báo từ khóa <i>var</i>.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="headingThree">
+				<h4 class="panel-title">
+				<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				Câu 3
+				</a>
+				</h4>
+			</div>
+			
+			<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				<div class="panel-body">
+				<h4>Làm thế nào để truy xuất (lấy giá trị) trong 1 thẻ HTML bất kỳ và gán vào 1 biến để trong Javascript theo <i>ID</i>, theo <i>Class</i>, theo <i>Name</i>, theo <i>tên thẻ HTML</i> và theo <i>CSS Selector</i> (ví dụ .class, #id)? Cho ví dụ minh họa.</h4>
+				<p>
+					<ul>
+						<li>Theo ID: <i>document.getElementByID&#40;&#41;</i><br/>
+						VD: var element &#61; document.getElementById&#40;&#39;id&#39;&#41;&#59;</li>
+						<li>Theo Class: <i>document.getElementsByClassName&#40;&#41;</i><br/>
+						VD: var element &#61; document.getElementsByClassName&#40;&#39;class&#39;&#41;&#59;</li>
+						<li>Theo Name: <i>document.getElementsByName&#40;&#41;</i><br/>
+						VD: var element &#61; document.getElementsByName&#40;&#39;name&#39;&#41;&#59;</li>
+						<li>Theo tên thẻ HTML: <i>document.getElementsByTagName&#40;&#41;</i><br/>
+						VD: var element &#61; document.getElementsByTagName&#40;&#39;tag&#39;&#41;&#59;</li>
+						<li>Theo CSS Selector: <i>document.querySelectorAll&#40;&#41;</i><br/>
+						VD: var element &#61; document.querySelectorAll&#40;&#34;selector.css&#34;&#41;&#59;</li>
+					</ul>
+				</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="headingFour">
+				<h4 class="panel-title">
+				<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+				Câu 4
+				</a>
+				</h4>
+			</div>
+			
+			<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+				<div class="panel-body">
+				<h4>Xác định các lệnh Javascript tương ứng để thực hiện các yêu cầu sau:
+					<ul>
+						<li>Viết ghi chú trong Javascript (1 dòng, nhiều dòng)</li>
+						<li>Hiển thị thời gian hiện tại <italic>(từ năm đến giây theo múi giờ GMT+7 - Việt Nam)</italic>.
+						<li>Viết 1 hàm <italic>(function)</italic> để tính tổng giá trị của 2 số ngẫu nhiên từ 1 đến 100.</li>
+						<li>Đổi màu nền hay hình nền của trang.</li>
+					</ul>
+				</h4>
+				<p><ul>
+					<li>Ghi chú 1 dòng lệnh: // </br>
+					Ghi chú nhiều dòng lệnh: /* */</li>
+					<li>Hiển thị thời gian hiện tại: <p id="GetDate"></p></li>
+					<li id = displaySumRand></li>
+					<p>function SumRandNumber&#40;&#41; &#123; <br>
+						&nbsp;&nbsp;var x &#61; Math.floor&#40;&#40;Math.random&#40;&#41; * 10&#41; + 1&#41;&#59;<br>
+						&nbsp;&nbsp;var y &#61; Math.floor&#40;&#40;Math.random&#40;&#41; * 10&#41; + 1&#41;&#59;<br>
+						&nbsp;&nbsp;return &#40;x + y&#41;&#59;<br>
+					&#125;</p>
+					
+					<li>
+						<button onclick="changeBackground()">Change background color</button>
+						<button onclick="changedefaultBackground()">Change default background color</button>
+					</li>
+				</ul></p>
+				<p></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="myScript.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

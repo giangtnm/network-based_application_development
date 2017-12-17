@@ -1,0 +1,8 @@
+.code {
+    font-family: Consolas,"courier new";
+    line-height: 1.4;
+    width: auto;
+    padding: 8px 12px;
+    border-left: 4px solid #8fade1;
+    word-wrap: break-word;
+}
