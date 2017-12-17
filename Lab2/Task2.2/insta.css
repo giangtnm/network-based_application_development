@@ -1,49 +1,49 @@
 body {
-	background-color: #fafafa;
+    background-color: #fafafa;
 }
 
 .container {
-	margin-top: 20px;
-	display: flex;
-	justify-content: center;
-	max-width: 935px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 935px;
 }
 
 .left {
-	background-image: url("phone.png");
-	flex-basis: 454px;
-	height: 618px;
-	margin-top: 30px;
-	margin-left: 15px;
-	align-self: center;
+    background-image: url("phone.png");
+    flex-basis: 454px;
+    height: 618px;
+    margin-top: 30px;
+    margin-left: 15px;
+    align-self: center;
 }
 
 .slider-wrapper {
-	margin: 99px 0 0 151px;
-	position: relative;
+    margin: 99px 0 0 151px;
+    position: relative;
 }
 
 .right {
-	color: #262626;
-	flex-grow: 1;
-	justify-content: center;
-	margin-top: 12px;
-	max-width: 350px;
+    color: #262626;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
 }
 
 .signup {
-	background-color: #fff;
-	border: 1px solid #e6e6e6;
-	border-radius: 1px;
-	margin: 0 0 15px;
-	padding: 10px 0;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 15px;
+    padding: 10px 0;
 }
 
 .signup img {
-	width: 180px;
-	height: 55px;
-	margin: 22px auto 8px;
-	display: block;
+    width: 180px;
+    height: 55px;
+    margin: 22px auto 8px;
+    display: block;
 }
 
 .signup h2
@@ -58,161 +58,161 @@ body {
 }
 
 .facebook {
-	margin: 8px 40px;
+    margin: 8px 40px;
 }
 
 .facebook img {
-	vertical-align: middle;
-	width: 36px;
-	height: 24px;
-	display: inline-block;
-	position: relative;
-	margin-right: 8px;
-	margin-top: 5px;
+    vertical-align: middle;
+    width: 36px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+    margin-top: 5px;
 }
 
 .facebookButton {
-	line-height: 28px;
-	font-size: 15px;
-	color: white;
-	background-color: #3897f0;
-	font-weight: 600;
-	width: 100%;
-	padding: 0 8px;
-	border-radius: 3px;
-	border-style: solid;
-	border-width: 1px;
-	outline: none;
-	overflow: hidden;
+    line-height: 28px;
+    font-size: 15px;
+    color: white;
+    background-color: #3897f0;
+    font-weight: 600;
+    width: 100%;
+    padding: 0 8px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    overflow: hidden;
 }
 
 .orline {
-	margin: 10px 40px 40px 40px;
+    margin: 10px 40px 40px 40px;
 }
 
 .or {
-	font-size: 13px;
-	line-height: 15px;
-	text-align: center;
-	color: #999;
-	font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #999;
+    font-weight: 600;
 }
 
 .line {
-	background-color: #c7c7c7;
-	height: 1px;
-	position: relative;
-	margin-top: 8px;
+    background-color: #c7c7c7;
+    height: 1px;
+    position: relative;
+    margin-top: 8px;
 }
 
 .textbox {
-	margin: 10px 40px 6px 40px;
+    margin: 10px 40px 6px 40px;
 }
 
 .txtbox {
-	border: 1px solid #dbdbdb;
-	border-radius: 3px;
-	color: #262626;
-	font-size: 14px;
-	padding: 9px 8px 7px;
-	width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #262626;
+    font-size: 14px;
+    padding: 9px 8px 7px;
+    width: 100%;
 }
 
 #signupbtn {
-	line-height: 22px;
-	font-size: 16px;
-	background-color: #3897f0;
-	border-color: #3897f0;
-	color: white;
-	font-weight: 600;
-	width: 100%;
-	padding: 0 8px;
-	border-radius: 3px;
-	border-style: solid;
-	border-width: 1px;
-	outline: none;
-	padding: 4px;
+    line-height: 22px;
+    font-size: 16px;
+    background-color: #3897f0;
+    border-color: #3897f0;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    padding: 0 8px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    padding: 4px;
 }
 
 #sign {
-	color: #999;
-	margin: 10px 60px;
-	font-size: 14px;
-	line-height: 18px;
-	text-align: center;
+    color: #999;
+    margin: 10px 60px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
 }
 
 .login {
-	background-color: #fff;
-	border: 1px solid #e6e6e6;
-	border-radius: 1px;
-	margin: 0 0 15px;
-	padding: 10px 0;
-	text-align: center;
-	font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 15px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
 }
 
 .login p {
-	margin: 15px;
+    margin: 15px;
 }
 
 .login p a {
-	color: #3897f0;
+    color: #3897f0;
 }
 
 .getapp {
-	text-align: center;
-	box-sizing: border-box;
-	position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .getapp p {
-	margin: 20px;
+    margin: 20px;
 }
 
 #app_store {
-	width: 140px;
-	height: 40px;
+    width: 140px;
+    height: 40px;
 }
 
 #google_play {
-	width: 156px;
-	height: 60px;
+    width: 156px;
+    height: 60px;
 }
 
 #footer {
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 #bar {
-	text-align: center;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 40px 0;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0;
 }
 
 #bar ul {
-	text-align: center;
+    text-align: center;
 }
 
 #bar ul li {
-	margin-left: 20px;
-	display: inline;
-	font-style: bold;
-	font-size: 11px;
-	font-weight: 700;
+    margin-left: 20px;
+    display: inline;
+    font-style: bold;
+    font-size: 11px;
+    font-weight: 700;
 }
 
 #bar ul li a {
-	color: #003569;
-	text-decoration: none;
+    color: #003569;
+    text-decoration: none;
 }
 
 .copyright {
-	color: #999;
-	font-size: 11px;
-	font-weight: 700;
-	text-align: center;
-	font-style: bold;
+    color: #999;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    font-style: bold;
 }

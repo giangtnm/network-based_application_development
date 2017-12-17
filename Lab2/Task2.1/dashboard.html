@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,233 +28,217 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body>
-
+<body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      
-      <div class="container-fluid">
-        
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">14520231 - Thái Nguyễn Minh Giang</a>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">14520231 - Thái Nguyễn Minh Giang</a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a data-toggle="tab" href="#section1">Câu 1</a></li>
+                    <li><a data-toggle="tab" href="#section2">Câu 2</a></li>
+                    <li><a data-toggle="tab" href="#section3">Câu 3</a></li>
+                    <li><a data-toggle="tab" href="#section4">Câu 4</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <input class="form-control" placeholder="Search..." type="text">
+                </form>
+            </div>
         </div>
-        
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a data-toggle="tab" href="#section1">Câu 1</a></li>
-            <li><a data-toggle="tab" href="#section2">Câu 2</a></li>
-            <li><a data-toggle="tab" href="#section3">Câu 3</a></li>
-            <li><a data-toggle="tab" href="#section4">Câu 4</a></li>
-          </ul>
-          <form class="navbar-form navbar-right">
-            <input class="form-control" placeholder="Search..." type="text">
-          </form>
-        
-        </div>
-      </div>
     </div>
 
     <div class="container-fluid">
-      <div class="row">
+        <div class="row">
         
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li><a data-toggle="tab" href="#section1">Câu 1</a></li>
-            <li><a data-toggle="tab" href="#section2">Câu 2</a></li>
-            <li><a data-toggle="tab" href="#section3">Câu 3</a></li>
-            <li><a data-toggle="tab" href="#section4">Câu 4</a></li>
-          </ul>
-        </div>
-
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <div class="tab-content">
-          
-          <div id="section1" class="container-fluid tab-pane fade in active">
-            <h1 class="page-header">Câu 1</h1>
-            <h3>Trình bày các cách để tích hợp Bootstrap vào một trang HTML/CSS bình thường trong điều kiện đang kết nối Internet? Trong Bootstrap đã được biên dịch gồm có những gì?</h3>
-            
-            <p>- Để sử dụng được Bootstrap trong HTML thì bạn cần có tập tin css và javacript. Sau đó, bạn nhúng liên kết vào website thì có thể gọi đến các thuộc tính css và javascript để sử dụng</p>
-            
-            <div class="cont">
-              &ltlink rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"><br>
- 
-              &ltlink rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"><br>
- 
-              &ltscript src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-            </div><br>
-          
-            - Cấu trúc của Bootstrap đã biên dịch:
-            <div class="biendich">
-              │── css/<br>
-              │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── bootstrap.css<br>
-              │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── bootstrap.min.css<br>
-              │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── bootstrap-theme.css<br>
-              │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp└── bootstrap-theme.min.css<br>
-              │── js/<br>
-              │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── bootstrap.js<br>
-              │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp└── bootstrap.min.js<br>
-              │── fonts/<br>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── glyphicons-halflings-regular.eot<br>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── glyphicons-halflings-regular.svg<br>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── glyphicons-halflings-regular.ttf<br>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp└── glyphicons-halflings-regular.woff<br>
-              <p></p>
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li><a data-toggle="tab" href="#section1">Câu 1</a></li>
+                    <li><a data-toggle="tab" href="#section2">Câu 2</a></li>
+                    <li><a data-toggle="tab" href="#section3">Câu 3</a></li>
+                    <li><a data-toggle="tab" href="#section4">Câu 4</a></li>
+                </ul>
             </div>
-            
-            <p>Đây là dạng cơ bản nhất của Bootstrap gồm các tập tin đã được biên dịch từ trước để có thể sử dụng một cách nhanh chóng trong HTML.</p>
-          </div>
-          
 
-          <div id="section2" class="container-fluid tab-pane">
-            <h1 class="page-header">Câu 2</h1>
-            <h3><b>Responsive</b> là gì? Làm thế nào nếu muốn vô hiệu hóa tính năng Responsive khi sử dụng Bootstrap?</h3>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <div class="tab-content">
+                    <div id="section1" class="container-fluid tab-pane fade in active">
+                        <h1 class="page-header">Câu 1</h1>
+                        <h3>Trình bày các cách để tích hợp Bootstrap vào một trang HTML/CSS bình thường trong điều kiện đang kết nối Internet? Trong Bootstrap đã được biên dịch gồm có những gì?</h3>
+                        <p>- Để sử dụng được Bootstrap trong HTML thì bạn cần có tập tin css và javacript. Sau đó, bạn nhúng liên kết vào website thì có thể gọi đến các thuộc tính css và javascript để sử dụng</p>
+                        <div class="cont">
+                          &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"&gt;<br>
+                          &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"&gt;<br>
+                          &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"&gt;&lt;/script&gt;
+                        </div>
+                        <br/>
+                        - Cấu trúc của Bootstrap đã biên dịch:
+                        <div class="biendich">
+                          │── css/<br>
+                          │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── bootstrap.css<br>
+                          │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── bootstrap.min.css<br>
+                          │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── bootstrap-theme.css<br>
+                          │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp└── bootstrap-theme.min.css<br>
+                          │── js/<br>
+                          │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── bootstrap.js<br>
+                          │&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp└── bootstrap.min.js<br>
+                          │── fonts/<br>
+                          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── glyphicons-halflings-regular.eot<br>
+                          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── glyphicons-halflings-regular.svg<br>
+                          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp├── glyphicons-halflings-regular.ttf<br>
+                          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp└── glyphicons-halflings-regular.woff<br>
+                          <br/>
+                        </div>
+                        <p>Đây là dạng cơ bản nhất của Bootstrap gồm các tập tin đã được biên dịch từ trước để có thể sử dụng một cách nhanh chóng trong HTML.</p>
+                    </div>
 
-            <ul>
-              <li>Responsive là tính năng tự động thay đổi các trang của bạn cho phù hợp với các kích thước màn hình khác nhau.</li></br>
-              <li>Để vô hiệu hóa tính năng này:</li>
-            </ul>
-            <ol>
-              <li>Bỏ thẻ <span class="res">&ltmeta></span> viewport<br>
-              <span class="blue">&ltmeta name="viewport" content="width=device-width, initial-scale=1"></span><br></li>
-              <li>Ghi đè thuộc tính <span class="res">width</span> trên <span class="res">.container</span> đối với mỗi cột trong hệ thống lưới.</li>
-              <li>Nếu sử dụng thanh điều hướng, vô hiệu hóa toàn bộ các tính năng thu gọn và mở rộng trên thanh điều hướng đó.</li>
-              <li>Đối với các bố cục dạng lưới, sử dụng class <span class="res">.col-xs-*</span> bằng cách thêm vào hoặc thay thế cho các class medium/large.</li>
-            </ol>
-          </div>
+                    <div id="section2" class="container-fluid tab-pane">
+                        <h1 class="page-header">Câu 2</h1>
+                        <h3><b>Responsive</b> là gì? Làm thế nào nếu muốn vô hiệu hóa tính năng Responsive khi sử dụng Bootstrap?</h3>
+                        <ul>
+                          <li>Responsive là tính năng tự động thay đổi các trang của bạn cho phù hợp với các kích thước màn hình khác nhau.</li></br>
+                          <li>Để vô hiệu hóa tính năng này:</li>
+                        </ul>
+                        <ol>
+                          <li>Bỏ thẻ <span class="res">&ltmeta></span> viewport<br>
+                          <span class="blue">&ltmeta name="viewport" content="width=device-width, initial-scale=1"></span><br></li>
+                          <li>Ghi đè thuộc tính <span class="res">width</span> trên <span class="res">.container</span> đối với mỗi cột trong hệ thống lưới.</li>
+                          <li>Nếu sử dụng thanh điều hướng, vô hiệu hóa toàn bộ các tính năng thu gọn và mở rộng trên thanh điều hướng đó.</li>
+                          <li>Đối với các bố cục dạng lưới, sử dụng class <span class="res">.col-xs-*</span> bằng cách thêm vào hoặc thay thế cho các class medium/large.</li>
+                        </ol>
+                    </div>
 
-          <div id="section3" class="container-fluid tab-pane">
-            <h1 class="page-header">Câu 3</h1>
-            <h3>Tìm hiểu về hệ thống lưới <i>(Grid System)</i> của Bootstrap và so sánh hoạt động của hệ thống lưới này trên các thiết bị có kích thước màn hình khác nhau như Phones(&lt;768px), Tablet(&ge;768px), Desktop(&ge;992px và &ge;1200px).</h3>
+                    <div id="section3" class="container-fluid tab-pane">
+                        <h1 class="page-header">Câu 3</h1>
+                        <h3>Tìm hiểu về hệ thống lưới <i>(Grid System)</i> của Bootstrap và so sánh hoạt động của hệ thống lưới này trên các thiết bị có kích thước màn hình khác nhau như Phones(&lt;768px), Tablet(&ge;768px), Desktop(&ge;992px và &ge;1200px).</h3>
+                        <p>- Bootstrap chứa một hệ thống lưới responsive, tương thích với hầu hết các thiết bị di động. Hệ thống này được chia thành 12 cột tương thích với mọi kích thước khung nhìn của các thiết bị. Nó bao gồm các class được định nghĩa trước để thuận tiện cho việc xây dựng bố cục, cùng với đó một bộ các mixin để tạo ra nhiều bố cục theo ngữ nghĩa.</p>
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>
+                                        Extra small devices
+                                        <small>Phones (&lt;768px)</small>
+                                    </th>
+                                    <th>
+                                        Small devices
+                                        <small>Tablets (&ge;768px)</small>
+                                    </th>
+                                    <th>
+                                        Medium devices
+                                        <small>Desktops (&ge;992px)</small>
+                                    </th>
+                                    <th>
+                                        Large devices
+                                        <small>Desktops (&ge;1200px)</small>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Grid behavior</th>
+                                    <td>Horizontal at all times</td>
+                                    <td colspan="3">Collapsed to start, horizontal above breakpoints</td>
+                                </tr>
+                                <tr>
+                                    <th>Container width</th>
+                                    <td>None (auto)</td>
+                                    <td>750px</td>
+                                    <td>970px</td>
+                                    <td>1170px</td>
+                                </tr>
+                                <tr>
+                                    <th>Class prefix</th>
+                                    <td><code>.col-xs-</code></td>
+                                    <td><code>.col-sm-</code></td>
+                                    <td><code>.col-md-</code></td>
+                                    <td><code>.col-lg-</code></td>
+                                </tr>
+                                <tr>
+                                    <th># of columns</th>
+                                    <td colspan="4">12</td>
+                                </tr>
+                                <tr>
+                                    <th>Column width</th>
+                                    <td class="text-muted">Auto</td>
+                                    <td>~62px</td>
+                                    <td>~81px</td>
+                                    <td>~97px</td>
+                                </tr>
+                                <tr>
+                                    <th>Gutter width</th>
+                                    <td colspan="4">30px (15px on each side of a column)</td>
+                                </tr>
+                                <tr>
+                                    <th>Offsets</th>
+                                    <td colspan="4">Yes</td>
+                                </tr>
+                                <tr>
+                                    <th>Column ordering</th>
+                                    <td colspan="4">Yes</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
 
-            <p>- Bootstrap chứa một hệ thống lưới responsive, tương thích với hầu hết các thiết bị di động. Hệ thống này được chia thành 12 cột tương thích với mọi kích thước khung nhìn của các thiết bị. Nó bao gồm các class được định nghĩa trước để thuận tiện cho việc xây dựng bố cục, cùng với đó một bộ các mixin để tạo ra nhiều bố cục theo ngữ nghĩa.</p>
-            <table class="table table-bordered table-striped">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>
-                    Extra small devices
-                    <small>Phones (&lt;768px)</small>
-                  </th>
-                  <th>
-                    Small devices
-                    <small>Tablets (&ge;768px)</small>
-                  </th>
-                  <th>
-                    Medium devices
-                    <small>Desktops (&ge;992px)</small>
-                  </th>
-                  <th>
-                    Large devices
-                    <small>Desktops (&ge;1200px)</small>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th>Grid behavior</th>
-                  <td>Horizontal at all times</td>
-                  <td colspan="3">Collapsed to start, horizontal above breakpoints</td>
-                </tr>
-                <tr>
-                  <th>Container width</th>
-                  <td>None (auto)</td>
-                  <td>750px</td>
-                  <td>970px</td>
-                  <td>1170px</td>
-                </tr>
-                <tr>
-                  <th>Class prefix</th>
-                  <td><code>.col-xs-</code></td>
-                  <td><code>.col-sm-</code></td>
-                  <td><code>.col-md-</code></td>
-                  <td><code>.col-lg-</code></td>
-                </tr>
-                <tr>
-                  <th># of columns</th>
-                  <td colspan="4">12</td>
-                </tr>
-                <tr>
-                  <th>Column width</th>
-                  <td class="text-muted">Auto</td>
-                  <td>~62px</td>
-                  <td>~81px</td>
-                  <td>~97px</td>
-                </tr>
-                <tr>
-                  <th>Gutter width</th>
-                  <td colspan="4">30px (15px on each side of a column)</td>
-                </tr>
-                <tr>
-                  <th>Nestable</th>
-                  <td colspan="4">Yes</td>
-                </tr>
-                <tr>
-                  <th>Offsets</th>
-                  <td colspan="4">Yes</td>
-                </tr>
-                <tr>
-                  <th>Column ordering</th>
-                  <td colspan="4">Yes</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+            <div id="section4" class="container-fluid tab-pane">
+                <h1 class="page-header">Câu 4</h1>
+                <h3>
+                    Tìm và cho ví dụ về cách thực hiện các yêu cầu sau:
+                    <ul>
+                        <li>Chèn 1 button 1 biểu tượng trong button đó.</li>
+                        <li>Chèn 1 thanh Progress Bar (tiến trình) tương tự trong CV ở task1.2.</li>
+                        <li>Chèn các loại cảnh báo (Alert) trong trang như Success, Info, Danger, Warning.</li>
+                        <li>Chèn 1 menu (Navigation) trong đó có 1 mục có menu con xổ xuống.</li>
+                    </ul>
+                </h3>
 
-          <div id="section4" class="container-fluid tab-pane">
-            <h1 class="page-header">Câu 4</h1>
-            <h3>
-              Tìm và cho ví dụ về cách thực hiện các yêu cầu sau:
-              <ul>
-                <li>Chèn 1 button 1 biểu tượng trong button đó.</li>
-                <li>Chèn 1 thanh Progress Bar (tiến trình) tương tự trong CV ở task1.2.</li>
-                <li>Chèn các loại cảnh báo (Alert) trong trang như Success, Info, Danger, Warning.</li>
-                <li>Chèn 1 menu (Navigation) trong đó có 1 mục có menu con xổ xuống.</li>
-              </ul>
-            </h3>
-
-            1. <br><button id="close" class="closing" onclick="javascript:close_clip()"><img id="image" src="ava_html.jpg" ></button><br>
-            2.<br>
-            <div class="progressbar p50"><div id="first-bar"></div></div>
-            <div class="progressbar p50"><div id="second-bar"></div></div>
-            <div class="progressbar p50"><div id="third-bar"></div></div>
-            <div class="progressbar p50"><div id="fourth-bar"></div></div><br>
-            3.<br>
-            <div class="alert alert-success">
-            <strong>Success!</strong> Indicates a successful or positive action.</div>
-            <div class="alert alert-info">
-            <strong>Info!</strong> Indicates a neutral informative change or action.</div>
-            <div class="alert alert-warning">
-            <strong>Warning!</strong> Indicates a warning that might need attention.</div>
-            <div class="alert alert-danger">
-            <strong>Danger!</strong> Indicates a dangerous or potentially negative action.</div><br>
-            4.<br>
-              <div id="menu">
-              <ul>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3◢</a>
-              <ul class="sub-menu">
-                <li><a href="#">3.1</a></li>
-                <li><a href="#">3.2</a></a></li>
-                <li><a href="#">3.3</a></li>
-              </ul>
-              </li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              </ul>
-              </div>
-              <br><br><br><br><br><br><br><br><br>     
-          </div>
-
+                1. <br><button id="close" class="closing" onclick="javascript:close_clip()"><img id="image" src="ava_html.jpg" ></button><br>
+                2.<br>
+                <div class="progressbar p50"><div id="first-bar"></div></div>
+                <div class="progressbar p50"><div id="second-bar"></div></div>
+                <div class="progressbar p50"><div id="third-bar"></div></div>
+                <div class="progressbar p50"><div id="fourth-bar"></div></div><br>
+                3.<br>
+                <div class="alert alert-success">
+                <strong>Success!</strong> Indicates a successful or positive action.</div>
+                <div class="alert alert-info">
+                <strong>Info!</strong> Indicates a neutral informative change or action.</div>
+                <div class="alert alert-warning">
+                <strong>Warning!</strong> Indicates a warning that might need attention.</div>
+                <div class="alert alert-danger">
+                <strong>Danger!</strong> Indicates a dangerous or potentially negative action.</div><br>
+                4.<br>
+                <div id="menu">
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li>
+                            <a href="#">3◢</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">3.1</a></li>
+                                <li><a href="#">3.2</a></a></li>
+                                <li><a href="#">3.3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                    </ul>
+                </div>
+                <br/><br/><br><br><br><br><br><br><br>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Bootstrap core JavaScript
@@ -263,5 +247,5 @@
     <script src="jquery.min.js"></script>
     <script src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
     <script src="docs.min.js"></script>
-  </body>
+</body>
 </html>
