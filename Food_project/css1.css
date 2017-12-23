@@ -1,0 +1,66 @@
+/* CSS Document */
+.content1{
+	margin-top: 25px;
+	
+}
+
+.content1 h2{
+	line-height: 100px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.main-image{
+	display: block;
+    float: left;
+}
+
+.img{
+	width: 200px;
+    height: 100px;
+    border-radius: 0;
+}
+
+.information{
+	
+	width: 760px;
+    float: right;
+}
+
+.chitietheader{
+	background: #fff;
+	display: block;
+	clear: both;
+    overflow: hidden;
+    position: relative;
+	margin-bottom: 20px;
+}
+
+.cont{
+	padding-left:50px;
+}
+
+.main-info{
+    width: 100%;
+    overflow: hidden;
+}
+
+.giaca,
+.danhgia,
+.info{
+	clear: both;
+    border-top: #000 1px solid;
+    overflow: hidden;
+}
+
+.info h2{
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+.giaca, .danhgia{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/* CSS Document */
+
