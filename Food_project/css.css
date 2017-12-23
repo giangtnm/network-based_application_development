@@ -1,44 +1,43 @@
 /* CSS Document */
 .content1{
-	margin-top: 25px;
-	
+    margin-top: 25px;
 }
 
 .content1 h2{
-	padding-top: 20px;
-	font-size: 20px;
-	font-weight: 700;
-	padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
 }
 
 .main-image{
-	display: block;
+    display: block;
     float: left;
 }
 
 .img{
-	width: 440px;
+    width: 440px;
     height: 275px;
     border-radius: 0;
 }
 
 .information{
-	
-	width: 520px;
+
+    width: 520px;
     float: right;
 }
 
 .chitietheader{
-	background: #fff;
-	display: block;
-	clear: both;
+    background: #fff;
+    display: block;
+    clear: both;
     overflow: hidden;
     position: relative;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .cont{
-	padding-left:15px;
+    padding-left:15px;
 }
 
 .main-info{
@@ -49,17 +48,17 @@
 .giaca,
 .danhgia,
 .info{
-	clear: both;
+    clear: both;
     border-top: #000 1px solid;
     overflow: hidden;
 }
 
 .info h2{
-	padding-bottom: 5px;
-	padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
 }
 
 .giaca, .danhgia{
-	padding-top: 20px;
-	padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
