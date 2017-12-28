@@ -6,20 +6,22 @@
     <div class="content-item tab-pane fade " id="section3">
         <?php
             while($dong_all1=mysql_fetch_array($query_all1)){
-        ?>
-        <div class="item">
-            <div class="image">
-                <a href="chitiet.php?xem=chitiet&id_monan=<?php echo $dong_all1['ma_monan'] ?>"><img src="admin/modules/quanlychitietmonan/upload/<?php echo $dong_all1['hinhanh']?>" alt=""></a>
-            </div>
-            <div class="item-content">
-                <a href="chitiet.php?xem=chitiet&id_monan=<?php echo $dong_all1['ma_monan'] ?>" class="name1">
-                    <div class="name" style="text-align: center; padding-top: 25px;">
-                        <?php echo $dong_all1['tenmonan']?>
+                ?>
+                <div class="item">
+                    <div class="image">
+                        <a href="chitiet.php?xem=chitiet&id_monan=<?php echo $dong_all1['ma_monan'] ?>">
+                            <img src="admin/modules/quanlychitietmonan/upload/<?php echo $dong_all1['hinhanh']?>" alt="">
+                        </a>
                     </div>
-                </a>
-            </div>
-        </div><!-- item -->
-        <?php
+                    <div class="item-content">
+                        <a href="chitiet.php?xem=chitiet&id_monan=<?php echo $dong_all1['ma_monan'] ?>" class="name1">
+                            <div class="name" style="text-align: center; padding-top: 25px;">
+                                <?php echo $dong_all1['tenmonan']?>
+                            </div>
+                        </a>
+                    </div>
+                </div><!-- item -->
+                <?php
             }
         ?>
     </div> <!-- content-item-->
